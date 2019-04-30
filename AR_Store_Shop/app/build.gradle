@@ -38,7 +38,7 @@ dependencies {
 
 }
 
-
+apply plugin: 'com.google.gms.google-services'
 sceneform.asset('sampledata/CruzV2.obj',
         'default',
         'sampledata/CruzV2.sfa',

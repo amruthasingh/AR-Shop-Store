@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">AR_Store_Shop</string>
+    <string name="new_user">New User? <u>Click here to Register.</u></string>
+    <string name="old_user">Already a User? <u>Go back to Login.</u></string>
+    <string-array name="shopItems">
+        <item>Check here</item>
+        <item>shoe</item>
+        <item>wooden-coffe-table</item>
+        <item>settie-sofa</item>
+        <item>chair</item>
+        <item>living_lamp</item>
+        <item>calla_lilly_with_roses</item>
+        <item>ficus</item>
+        <item>mini_stereo</item>
+
+    </string-array>
+</resources>

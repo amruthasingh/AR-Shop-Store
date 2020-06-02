@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#ffb200"
+    tools:context=".RegistrationActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Register here"
+        android:textSize="25dp"
+        android:textColor="#ffffff"
+        android:textStyle="bold" />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="15dp" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="384dp"
+        android:layout_height="301dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:background="@drawable/reg"
+        android:src="@drawable/reg" />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/password"
+        android:layout_marginBottom="16dp"
+        android:hint="Email" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:hint="Password"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register" />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+
+    <TextView
+        android:id="@+id/backtologin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/old_user"
+        android:textColor="@color/white"
+        android:gravity="center"/>
+
+    <ProgressBar
+        android:id="@+id/progressbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+
+</LinearLayout>
